@@ -34,17 +34,17 @@ class FormController extends Controller
             var_dump(value: $data);
                 
                 
-                /* $user = FormModel::create($data);
+                $user = FormModel::create($data);
                 $user->name = $data['name'];
                 $user->surname = $data['surname'];
                 $user->username = $data['username'];
                 $user->password = $data['password'];
                 $user->email = $data['email'];
                 $user->tel = $data['tel'];
-                var_dump($user); */
+                var_dump($user);
                 return view('validation');
         }catch(Exception $e) {
             return view('error');
         }
     }
-};
+}; 

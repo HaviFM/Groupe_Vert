@@ -18,4 +18,4 @@
     <label for="password">MOT DE PASSE</label>
     <input type="password" name="password" id="password" value="" placeholder="*****">
     <button type="submit">Enregistrer</button>
-</form>
+</form> 
