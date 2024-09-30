@@ -1,1 +1,0 @@
-<h1>Inscription en attente de Validation</h1>
