@@ -56,5 +56,4 @@ class AdminInscriptionController extends Controller
         // Redirige avec un message de succès
         return redirect()->back()->with('success', 'Les changements ont été appliqués avec succès !');
     }
-    
 }
